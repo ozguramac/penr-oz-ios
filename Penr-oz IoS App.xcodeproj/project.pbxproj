@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BC1777E1FA3A3CB0023B2B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1777D1FA3A3CB0023B2B2 /* AppDelegate.swift */; };
+		8BC177801FA3A3CB0023B2B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1777F1FA3A3CB0023B2B2 /* ViewController.swift */; };
+		8BC177831FA3A3CB0023B2B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC177811FA3A3CB0023B2B2 /* Main.storyboard */; };
+		8BC177851FA3A3CB0023B2B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC177841FA3A3CB0023B2B2 /* Assets.xcassets */; };
+		8BC177881FA3A3CB0023B2B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC177861FA3A3CB0023B2B2 /* LaunchScreen.storyboard */; };
+		8BC177931FA3A3CB0023B2B2 /* Penr_oz_IoS_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC177921FA3A3CB0023B2B2 /* Penr_oz_IoS_AppTests.swift */; };
+		8BC1779E1FA3A3CB0023B2B2 /* Penr_oz_IoS_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1779D1FA3A3CB0023B2B2 /* Penr_oz_IoS_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BC1778F1FA3A3CB0023B2B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BC177721FA3A3CA0023B2B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC177791FA3A3CA0023B2B2;
+			remoteInfo = "Penr-oz IoS App";
+		};
+		8BC1779A1FA3A3CB0023B2B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BC177721FA3A3CA0023B2B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BC177791FA3A3CA0023B2B2;
+			remoteInfo = "Penr-oz IoS App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BC1777A1FA3A3CB0023B2B2 /* Penr-oz IoS App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penr-oz IoS App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC1777D1FA3A3CB0023B2B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BC1777F1FA3A3CB0023B2B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BC177821FA3A3CB0023B2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BC177841FA3A3CB0023B2B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BC177871FA3A3CB0023B2B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BC177891FA3A3CB0023B2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC1778E1FA3A3CB0023B2B2 /* Penr-oz IoS AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penr-oz IoS AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC177921FA3A3CB0023B2B2 /* Penr_oz_IoS_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penr_oz_IoS_AppTests.swift; sourceTree = "<group>"; };
+		8BC177941FA3A3CB0023B2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BC177991FA3A3CB0023B2B2 /* Penr-oz IoS AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Penr-oz IoS AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BC1779D1FA3A3CB0023B2B2 /* Penr_oz_IoS_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Penr_oz_IoS_AppUITests.swift; sourceTree = "<group>"; };
+		8BC1779F1FA3A3CB0023B2B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BC177771FA3A3CA0023B2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC1778B1FA3A3CB0023B2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC177961FA3A3CB0023B2B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BC177711FA3A3CA0023B2B2 = {
+			isa = PBXGroup;
+			children = (
+				8BC1777C1FA3A3CB0023B2B2 /* Penr-oz IoS App */,
+				8BC177911FA3A3CB0023B2B2 /* Penr-oz IoS AppTests */,
+				8BC1779C1FA3A3CB0023B2B2 /* Penr-oz IoS AppUITests */,
+				8BC1777B1FA3A3CB0023B2B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC1777B1FA3A3CB0023B2B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BC1777A1FA3A3CB0023B2B2 /* Penr-oz IoS App.app */,
+				8BC1778E1FA3A3CB0023B2B2 /* Penr-oz IoS AppTests.xctest */,
+				8BC177991FA3A3CB0023B2B2 /* Penr-oz IoS AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BC1777C1FA3A3CB0023B2B2 /* Penr-oz IoS App */ = {
+			isa = PBXGroup;
+			children = (
+				8BC1777D1FA3A3CB0023B2B2 /* AppDelegate.swift */,
+				8BC1777F1FA3A3CB0023B2B2 /* ViewController.swift */,
+				8BC177811FA3A3CB0023B2B2 /* Main.storyboard */,
+				8BC177841FA3A3CB0023B2B2 /* Assets.xcassets */,
+				8BC177861FA3A3CB0023B2B2 /* LaunchScreen.storyboard */,
+				8BC177891FA3A3CB0023B2B2 /* Info.plist */,
+			);
+			path = "Penr-oz IoS App";
+			sourceTree = "<group>";
+		};
+		8BC177911FA3A3CB0023B2B2 /* Penr-oz IoS AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC177921FA3A3CB0023B2B2 /* Penr_oz_IoS_AppTests.swift */,
+				8BC177941FA3A3CB0023B2B2 /* Info.plist */,
+			);
+			path = "Penr-oz IoS AppTests";
+			sourceTree = "<group>";
+		};
+		8BC1779C1FA3A3CB0023B2B2 /* Penr-oz IoS AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BC1779D1FA3A3CB0023B2B2 /* Penr_oz_IoS_AppUITests.swift */,
+				8BC1779F1FA3A3CB0023B2B2 /* Info.plist */,
+			);
+			path = "Penr-oz IoS AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BC177791FA3A3CA0023B2B2 /* Penr-oz IoS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC177A21FA3A3CB0023B2B2 /* Build configuration list for PBXNativeTarget "Penr-oz IoS App" */;
+			buildPhases = (
+				8BC177761FA3A3CA0023B2B2 /* Sources */,
+				8BC177771FA3A3CA0023B2B2 /* Frameworks */,
+				8BC177781FA3A3CA0023B2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Penr-oz IoS App";
+			productName = "Penr-oz IoS App";
+			productReference = 8BC1777A1FA3A3CB0023B2B2 /* Penr-oz IoS App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BC1778D1FA3A3CB0023B2B2 /* Penr-oz IoS AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC177A51FA3A3CB0023B2B2 /* Build configuration list for PBXNativeTarget "Penr-oz IoS AppTests" */;
+			buildPhases = (
+				8BC1778A1FA3A3CB0023B2B2 /* Sources */,
+				8BC1778B1FA3A3CB0023B2B2 /* Frameworks */,
+				8BC1778C1FA3A3CB0023B2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC177901FA3A3CB0023B2B2 /* PBXTargetDependency */,
+			);
+			name = "Penr-oz IoS AppTests";
+			productName = "Penr-oz IoS AppTests";
+			productReference = 8BC1778E1FA3A3CB0023B2B2 /* Penr-oz IoS AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BC177981FA3A3CB0023B2B2 /* Penr-oz IoS AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BC177A81FA3A3CB0023B2B2 /* Build configuration list for PBXNativeTarget "Penr-oz IoS AppUITests" */;
+			buildPhases = (
+				8BC177951FA3A3CB0023B2B2 /* Sources */,
+				8BC177961FA3A3CB0023B2B2 /* Frameworks */,
+				8BC177971FA3A3CB0023B2B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BC1779B1FA3A3CB0023B2B2 /* PBXTargetDependency */,
+			);
+			name = "Penr-oz IoS AppUITests";
+			productName = "Penr-oz IoS AppUITests";
+			productReference = 8BC177991FA3A3CB0023B2B2 /* Penr-oz IoS AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BC177721FA3A3CA0023B2B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ozgur V Amac";
+				TargetAttributes = {
+					8BC177791FA3A3CA0023B2B2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					8BC1778D1FA3A3CB0023B2B2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BC177791FA3A3CA0023B2B2;
+					};
+					8BC177981FA3A3CB0023B2B2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8BC177791FA3A3CA0023B2B2;
+					};
+				};
+			};
+			buildConfigurationList = 8BC177751FA3A3CA0023B2B2 /* Build configuration list for PBXProject "Penr-oz IoS App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BC177711FA3A3CA0023B2B2;
+			productRefGroup = 8BC1777B1FA3A3CB0023B2B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BC177791FA3A3CA0023B2B2 /* Penr-oz IoS App */,
+				8BC1778D1FA3A3CB0023B2B2 /* Penr-oz IoS AppTests */,
+				8BC177981FA3A3CB0023B2B2 /* Penr-oz IoS AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BC177781FA3A3CA0023B2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC177881FA3A3CB0023B2B2 /* LaunchScreen.storyboard in Resources */,
+				8BC177851FA3A3CB0023B2B2 /* Assets.xcassets in Resources */,
+				8BC177831FA3A3CB0023B2B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC1778C1FA3A3CB0023B2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC177971FA3A3CB0023B2B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BC177761FA3A3CA0023B2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC177801FA3A3CB0023B2B2 /* ViewController.swift in Sources */,
+				8BC1777E1FA3A3CB0023B2B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC1778A1FA3A3CB0023B2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC177931FA3A3CB0023B2B2 /* Penr_oz_IoS_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BC177951FA3A3CB0023B2B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BC1779E1FA3A3CB0023B2B2 /* Penr_oz_IoS_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BC177901FA3A3CB0023B2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC177791FA3A3CA0023B2B2 /* Penr-oz IoS App */;
+			targetProxy = 8BC1778F1FA3A3CB0023B2B2 /* PBXContainerItemProxy */;
+		};
+		8BC1779B1FA3A3CB0023B2B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BC177791FA3A3CA0023B2B2 /* Penr-oz IoS App */;
+			targetProxy = 8BC1779A1FA3A3CB0023B2B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BC177811FA3A3CB0023B2B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC177821FA3A3CB0023B2B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BC177861FA3A3CB0023B2B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BC177871FA3A3CB0023B2B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BC177A01FA3A3CB0023B2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BC177A11FA3A3CB0023B2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BC177A31FA3A3CB0023B2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Penr-oz IoS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Derin-Works-LLC.Penr-oz-IoS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BC177A41FA3A3CB0023B2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Penr-oz IoS App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Derin-Works-LLC.Penr-oz-IoS-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BC177A61FA3A3CB0023B2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Penr-oz IoS AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Derin-Works-LLC.Penr-oz-IoS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penr-oz IoS App.app/Penr-oz IoS App";
+			};
+			name = Debug;
+		};
+		8BC177A71FA3A3CB0023B2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Penr-oz IoS AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Derin-Works-LLC.Penr-oz-IoS-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Penr-oz IoS App.app/Penr-oz IoS App";
+			};
+			name = Release;
+		};
+		8BC177A91FA3A3CB0023B2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Penr-oz IoS AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Derin-Works-LLC.Penr-oz-IoS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Penr-oz IoS App";
+			};
+			name = Debug;
+		};
+		8BC177AA1FA3A3CB0023B2B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Penr-oz IoS AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Derin-Works-LLC.Penr-oz-IoS-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Penr-oz IoS App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BC177751FA3A3CA0023B2B2 /* Build configuration list for PBXProject "Penr-oz IoS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC177A01FA3A3CB0023B2B2 /* Debug */,
+				8BC177A11FA3A3CB0023B2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC177A21FA3A3CB0023B2B2 /* Build configuration list for PBXNativeTarget "Penr-oz IoS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC177A31FA3A3CB0023B2B2 /* Debug */,
+				8BC177A41FA3A3CB0023B2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC177A51FA3A3CB0023B2B2 /* Build configuration list for PBXNativeTarget "Penr-oz IoS AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC177A61FA3A3CB0023B2B2 /* Debug */,
+				8BC177A71FA3A3CB0023B2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BC177A81FA3A3CB0023B2B2 /* Build configuration list for PBXNativeTarget "Penr-oz IoS AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BC177A91FA3A3CB0023B2B2 /* Debug */,
+				8BC177AA1FA3A3CB0023B2B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BC177721FA3A3CA0023B2B2 /* Project object */;
+}
